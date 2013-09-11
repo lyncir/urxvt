@@ -19,12 +19,16 @@ URxvt.scrollBar:False
 !!光标闪烁
 URxvt.cursorBlink:True
 
-!!真透明
-!设置前景色
-URxvt.foreground: grey80
-!设置背景色
+! 真透明
+! 设置前景色
+!URxvt.foreground: grey80
+URxvt*foreground : #00FF00
+! 设置背景色
 URxvt.background: rgba:0000/0000/0000/dddd
-!设置颜色深度
+!URxvt*background : #000000
+! 设置游标颜色
+URxvt*cursorColor: #FF0000
+! 设置颜色深度
 URxvt.depth: 32
 
 !!字体设置
